@@ -1,0 +1,76 @@
+/* PhotoPreview.css */
+
+.photo-preview-container {
+    padding: 20px;
+    margin-bottom: 60px; /* To avoid overlapping with the BottomNavBar */
+  }
+  
+  .selected-photo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .search-bar {
+    width: 88%; /* Ensures the input takes up the available space */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Makes the search bar rounded */
+    outline: none;
+    margin-right: 15px; /* Adds more space between the search bar and button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow */
+    transition: border 0.3s ease;
+  }
+  
+  .search-bar:focus {
+    border-color: #007bff; /* Blue border on focus */
+  }
+  
+  .add-button {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text (the plus symbol) */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Makes the button perfectly round */
+    width: 40px; /* Ensures the button is a square */
+    height: 40px; /* Ensures the button is a square */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the plus symbol */
+    font-size: 24px; /* Font size for the plus symbol */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0; /* Adds padding around the entire container */
+  }
+  
+  .next-button {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 25px; /* Makes the button more rounded */
+    width: 100%; /* Make it take the full width of the container */
+    padding: 15px 0; /* Adds vertical padding for better touchability */
+    font-size: 18px; /* Adjusts the text size for better readability */
+    text-align: center;
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  }
+  
+  .next-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+  }

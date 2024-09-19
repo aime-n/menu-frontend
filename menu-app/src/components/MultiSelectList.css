@@ -1,0 +1,38 @@
+.multi-select-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between; /* Space between the text and the icon */
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #eee;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    cursor: pointer; /* Make the entire row clickable */
+    transition: background-color 0.3s ease;
+  }
+  
+  .item.selected {
+    background-color: #e6f0ff; /* Highlight selected items */
+  }
+  
+  .custom-radio {
+    font-size: 24px;
+  }
+  
+  .selected-icon {
+    color: #007bff; /* Blue color for selected items */
+  }
+  
+  .unselected-icon {
+    color: #ccc; /* Grey color for unselected items */
+  }
+  
+  .item-text {
+    font-size: 16px;
+    margin-right: 10px; /* Adds some space between the text and the icon */
+  }

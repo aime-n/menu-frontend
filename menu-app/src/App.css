@@ -1,0 +1,84 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app__content {
+  flex: 1;
+  padding-top: 35px; /* Same as header height */
+  padding-bottom: 60px; /* Height of the BottomNavBar */
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: 'GameOver';
+  src: url('./assets/fonts/GameOver.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'GameOver', sans-serif;
+}
+
+.top-bar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 4px 2px -2px gray;
+  font-family: 'GameOver', sans-serif;
+}
+
+.content {
+  margin-top: 80px;
+  text-align: center;
+  padding: 20px;
+  font-family: 'GameOver', sans-serif;
+  font-size: 2rem;
+  background-color: #5a7dab;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+

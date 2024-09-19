@@ -1,0 +1,133 @@
+/* Post.css */
+
+.post {
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .post-header .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .post-header .username {
+    font-weight: bold;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .left-actions,
+  .right-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+/* Post.css */
+
+.icon {
+    font-size: 24px; /* Base size for all icons */
+  }
+  
+  /* Specific adjustments to individual icons if needed */
+  .icon-heart {
+    font-size: 30px; /* Adjust size if the heart icon appears smaller or larger */
+  }
+  
+  .icon-comment {
+    font-size: 26px; /* Ensure comment icon matches others visually */
+  }
+  
+  .icon-share {
+    font-size: 24px; /* Adjust as needed for visual consistency */
+  }
+  
+  .icon-bookmark {
+    font-size: 26px; /* Adjust bookmark size */
+  }
+  
+  .icon.bookmark-icon.filled {
+    color: black;
+  }
+  
+  .likes-count {
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .post-caption {
+    padding: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .caption-text {
+    margin-left: 5px;
+  }
+  
+  .comments-section {
+    padding: 10px;
+  }
+  
+  .comment {
+    margin-bottom: 5px;
+  }
+  
+  .comment-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .comment-input .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .comment-input input {
+    flex: 1;
+    padding: 5px;
+    border: 0px solid #ffffff;
+    border-radius: 4px;
+  }
+  
+  .comment-input button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px; /* Match the icon size */
+    color: #333;
+    margin-left: 10px;
+  }
